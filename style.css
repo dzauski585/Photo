@@ -1,0 +1,55 @@
+body {
+    background-color: #B2AC88;
+  }
+  
+  .nav-link {
+    color: #B2AC88 !important;
+  }
+  
+  .c-logo {
+    height: 300px;
+    width: 100%;
+    object-fit: contain;
+    /*aspect ratio*/
+  }
+  
+  .c-item {
+    height: 480px;
+  }
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    /*aspect ratio*/
+  }
+  
+  
+  .carousel-inner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .price{
+    text-align: center;
+  }
+  
+  .about{
+    text-align: center;
+  }
+  
+  .about-img{
+    height: 750px;
+    width: 100%;
+    object-fit: contain;
+  }
+  
