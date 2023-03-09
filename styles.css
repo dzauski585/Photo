@@ -24,9 +24,25 @@ body {
   margin-bottom: 50px;
   margin-top: 50px;
   }
+    
+  .about{
+    text-align: center;
+  }
+  
+  .about-img{
+    height: 750px;
+    width: 100%;
+    object-fit: contain;
+  }
   
   .intro-text{
     text-align: center;
+  }
+
+
+  .thumbnail{
+    height: 200px;
+
   }
 
 .footer {
@@ -50,19 +66,6 @@ body {
     margin-left: 10px;
   }
   
-  .price{
-    text-align: center;
-  }
-  
-  .about{
-    text-align: center;
-  }
-  
-  .about-img{
-    height: 750px;
-    width: 100%;
-    object-fit: contain;
-  }
 
   .row > .column {
     padding: 0 8px;
@@ -78,7 +81,6 @@ body {
   .column {
     float: left;
     width: 25%;
-    
   }
   
   /* The Modal (background) */
@@ -98,11 +100,11 @@ body {
   /* Modal Content */
   .modal-content {
     position: relative;
-    background-color: #fefefe;
+    background-color: transparent;
     margin: auto;
     padding: 0;
-    width: 90%;
-    max-width: 1200px;
+    width: 80%;
+    max-width: 1000px;
   }
   
   /* The Close Button */
@@ -191,5 +193,12 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
+  .demo{
+    height: 50px;
+    width: fit-content;
+  }
 
+  .col{
+    text-align: center;
+  }
   
