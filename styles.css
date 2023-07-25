@@ -67,4 +67,55 @@ body {
     margin-left: 10px;
   }
   
- 
+ .Ben_Liv_engagement_gallery{
+    text-align: center;
+ }
+
+ /* Overview of galleries*/
+ .gallery_thumbs{ /* position overlay absolutley*/
+  position: relative;
+ }
+
+.image_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6); /* background color*/
+	color: #ffffff; /* text color */
+	font-family: 'Quicksand', sans-serif; /* Font*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;  /* hidden see overlay:hover for appearance opacity*/
+	transition: opacity 0.25s; /* smooth transition */
+}
+.image_title { /* Change font size and boldness title*/
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.image_description { /* Change font size and boldness description*/
+	font-size: 1.25em;
+	margin-top: 0.25em;
+}
+.image_overlay--blur { /* blurs the back ground image*/
+	backdrop-filter: blur(5px);
+  filter: grayscale(100%);
+}
+
+.image_overlay>* {
+	transform: translateY(20px); /* moving the text lower by 20px so transition will come from bottom*/
+	transition: transform 0.25s;
+}
+
+.image_overlay:hover {
+	opacity: 1;  /* make overlay text appear*/
+}
+
+.image_overlay:hover>* {
+	transform: translateY(0); /* moving text from -20 to 0px in the center*/
+}
+
