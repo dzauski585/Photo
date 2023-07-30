@@ -76,6 +76,18 @@ body {
   position: relative;
  }
 
+ .image_img{
+  width: 100%;
+ }
+
+ .container-gallery{
+  padding: 10px;
+ }
+
+ .display-1{
+  padding: 10px;
+ }
+
 .image_overlay {
 	position: absolute;
 	top: 0;
