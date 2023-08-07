@@ -1,6 +1,8 @@
 #cover {
   background: url('images/IMG_7077.jpg') center center no-repeat ;
   background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   text-align: center;
   height: 100%;
   display: flex;
